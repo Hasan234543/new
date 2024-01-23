@@ -1,0 +1,201 @@
+.hasan .navbar-brand{
+    font-weight: 600;
+}
+.hasan span{
+    background-color: #6278df;
+    display: inline-block;
+    color: #fff;
+    height: 40px;
+    width:40px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    top: 4px;
+}
+.hasan-manu{
+    position: relative;
+    top: 7px;
+}
+
+
+
+
+img{
+    max-width: 1000%;
+}
+
+
+
+
+.banar{
+    
+    background: url(./mbr-10.jpg) no-repeat center center;
+    padding: 200px  0;
+    position: relative;
+    z-index: 1;
+}
+.banar-caption h4{
+margin-bottom: 30px;
+}
+.banar-caption h2{
+    margin-bottom: 30px;
+}
+
+.banar-caption .btn{
+    background-color: #5ba533;
+    padding:5px 20px;
+}
+.banar-caption .from-control{
+
+}
+.banar::after{
+    content: "";
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+background: rgba(0, 0, 0, 0.4);
+z-index: -1;
+}
+
+.abaut-content{
+    margin-top:100px;
+}
+.abaut-content h1{
+    font-size:25px;
+    margin-bottom:20px;
+}
+.about-section{
+    background-color: #f7f9ff;
+    padding: 30px 0px;
+}
+
+
+.feature-item{
+    height: 300px;
+    text-align: center;   
+     box-shadow: 5px 5px 25px 0 rgba(98, 120, 223,.4);
+
+}
+
+.left-img-sec{
+    width:40%;
+    overflow: hidden;
+    border-radius: 4px 0 0 4px;
+}
+.left-img-sec img{
+    height:100%;
+    width: auto;
+    max-width: inherit;
+}
+.right-text-sec{
+    width:60%;
+    margin-top: 15px;
+    margin-left:5px;
+    
+}
+.right-text-sec p{
+    font-size:15px;
+}
+
+.feature-section{
+    box-shadow: 5px 5px 25px 0 rgba(98, 120, 223,.2);
+
+}
+.protfulio-item{}
+.protfulio-item a{
+    position: relative;
+    display: block;
+}
+.protfulio-item a::after{
+    content: "";
+    height:0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(98, 120, 223,.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: .9s;
+}
+.protfulio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+
+.main-bg{
+    background-color: #f7f9ff;
+}
+
+
+.priceing-table-section p{
+    font-size:18px;
+}
+
+.priceing-table-section{
+
+}
+
+.priceing-table-item{
+    box-shadow: 5px 5px 25px 0 rgba(98, 120, 223,.2);
+    padding:20px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.priceing-table-item p{
+    font-size: 16px;
+}
+
+.priceing-table-item ul{
+    list-style: none;
+}
+.priceing-table-item ul li{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.priceing-table-item ul li span{
+    color: #6278df;
+    font-weight: bold;
+    width: 50px;
+    display: inline-block;
+}
+.priceing-button a{
+  transition: .5s;
+    box-shadow: 5px 5px 25px 0 rgba(98, 120, 223,.8);
+    
+    
+}
+.test-section-bio img{
+    width:60px;
+    float: left;
+    height:60px;
+}
+.test-section-bio{
+    width: 250px;
+    margin: auto;
+
+}
+.test-section span{
+    font-size: 100px;
+    color:#777;
+    opacity: .2;
+}
+
+.abaut-item{
+    margin-top: 50px;
+}
+.abaut-item .card{}
+.abaut-item .card img{
+    width:60px;
+    height:60px;
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+.contact-from-div .card{
+    padding: 30px;
+}
